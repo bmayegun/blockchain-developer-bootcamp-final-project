@@ -1,4 +1,4 @@
-# 💫🌟 **OATH-KEEPER DAPP** 🌟💫
+# 💫🌟 **MieStones DAPP** 🌟💫
 
 ## Frontend
 https://blockchain-bootcamp-bisoye.netlify.app/
@@ -7,27 +7,25 @@ https://blockchain-bootcamp-bisoye.netlify.app/
 
 ## General Project Idea
 
-Picture a situation where somone has promised to do something for you at a particular time or when you reach a milestone, might be an entity as big as the government promising the electorate that they would do one thing or the other if elected, and it might also be as little as your friend promising to buy you something when you successfully complete a task.
+MileStones lets you create an agreement broken into milestones which when met, there is a payout. It is useful in tracking progress of tasks, pay per milestone, and incentivising people to fulfill agreements. 
 
-People forget, intentionally or not, and that's your loss as most times, there's nothing to reference or no one to enforce these promises.
-
-#### **🔥🥁 Enter Oath-Keeper 🔥🥁**
+#### **🔥🥁 Enter MileStones 🔥🥁**
 
 ---
 
-Oath-Keeper ensures that Oath-givers can stake their wealth of equivalent stake on the platform per milestone reached or promised fulfilled. This ensures that Oath-takers don't lose out on completion of a task or when time lapses on a Promise.
+MileStones ensures that MileStone-givers can stake their wealth of equivalent stake on the platform per milestone reached or promised fulfilled. This ensures that MileStones-takers don't lose out on completion of a task or when time lapses on a Promise.
 
-Oath-keepers too are assured of a refund if a milestone isn't reached or when time lapses before a required milestone is reached.
+MileStone-keepers too are assured of a refund if a milestone isn't reached or when time lapses before a required milestone is reached.
 
 #### **USER TYPES**
 
 ---
 
-1. OATH-GIVER (required): User who creates oath on the platform, staking his wealth or token against a promise or milestone
+1. MileStone-GIVER (required): User who creates MileStones on the platform, staking his wealth or token against a promise or milestone
 
-2. OATH-TAKER (required): User who recieves staked tokens at the end of the oath life cycle.
+2. MileStone-TAKER (required): User who recieves staked tokens at the end of the MileStones life cycle.
 
-3. OATH-VERIFIER (optional): Optional third party User that checks and verifies that a required milestone condition has been met.
+3. MileStone-VERIFIER (optional): Optional third party User that checks and verifies that a required milestone condition has been met.
 
 #### **POSSIBLE USERS OR USE CASES**
 
@@ -71,7 +69,7 @@ This should start a development server at localhost:8081 or 8080 if that is avai
 
 `1. Connect your metamask account to the dapp`
 
-`2. Click on create oath`
+`2. Click on create agreement`
 
 `3. Complete the form and submit`
 
@@ -85,4 +83,4 @@ This should start a development server at localhost:8081 or 8080 if that is avai
 
 ---
 ## **📹📹 PROJECT WALKTHROUGH VIDEO 📹📹**
----
+---https://www.loom.com/share/bd531fb3d6b84e5b9f6c30eb111a7bb6
