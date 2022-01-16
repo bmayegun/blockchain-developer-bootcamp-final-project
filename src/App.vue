@@ -2,8 +2,8 @@
     <div class="page">
         <header>
             <div class="logo header-members">
-                <h1 style="margin: 0">Oath-Keepr</h1>
-                <p style="margin: 0">...because action speaks louder than voice</p>
+                <h1 style="margin: 0">MileStones</h1>
+                <p style="margin: 0"></p>
             </div>
             <div class="header-members">
                 <h3>Your account: {{address}}</h3>
@@ -16,12 +16,12 @@
             </div>
             <div>
                 <div class="body-title">
-                    <h1>All Oaths : {{oathCount}}</h1>
+                    <h1>All Agreements : {{oathCount}}</h1>
                     <p>Contract State: {{contractState ? "Active" : "Disabled"}}</p>
                 </div>
 
                 <div class="body-title">
-                    <button style="text-align: right" @click="toggleCreateOathMethod"> Create Oath + </button>
+                    <button style="text-align: right" @click="toggleCreateOathMethod"> Create Agreement + </button>
                     <button style="text-align: right" @click="withdrawFunds"> Withdraw</button>
                     <button style="text-align: right" @click="toggleState"> Toggle State </button>
                 </div>
@@ -29,7 +29,7 @@
                 <div>
                     <!-- Create New Oath -->
                     <form class="milestoneMaker" v-show="toggleCreateOath" @submit.prevent="createOath">
-                        <h2>New Oath</h2>
+                        <h2>New Agreement</h2>
                         <div>
                             <input type="text" placeholder="Oath Title" v-model="oathTitle">
                         </div>
@@ -58,10 +58,10 @@
                 <div class="oath-body">
                     <div class="oath-meta">
                         <span>
-                            Oath Id: {{oath.Id}}
+                            Agreement Id: {{oath.Id}}
                         </span>
                         <span class="oath-value">
-                            Cummulative Oath Value: {{oath.oathValue / 1000000000000000000}} eth
+                            Cummulative Agreement Value: {{oath.oathValue / 1000000000000000000}} eth
                         </span>
                     </div>
 
@@ -329,7 +329,7 @@
     }
 
     .notice{
-        background-color: hsla(180,52%,52%,1);
+        background-color: rgb(69, 99, 196);
         color: rgb(204, 35, 35);
         padding: 10px;
         margin-top: 44px;

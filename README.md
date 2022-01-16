@@ -85,5 +85,3 @@ This should start a development server at localhost:8081 or 8080 if that is avai
 ---
 ## **📹📹 PROJECT WALKTHROUGH VIDEO 📹📹**
 ---
-
-### **[Project Walkthrough YouTube Link](https://www.youtube.com/embed/zLzF6F2pnGs)** ###
