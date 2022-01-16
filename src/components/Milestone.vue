@@ -149,7 +149,7 @@ export default {
         padding: 40px;
     }
     .notice{
-        background-color: hsla(180,52%,52%,1);
+        background-color: rgb(69, 99, 196);
         color: rgb(204, 35, 35);
         padding: 10px;
         font-weight: bold;
