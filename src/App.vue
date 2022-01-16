@@ -162,12 +162,12 @@
                     this.connected = true;
                 } catch (error) {
                     if(error.code = 4001){
-                        this.address = "Oath-keepr needs an account to sign requests with";
+                        this.address = "MileStones an account to sign requests with";
                     }
                 }
             }else{
-                console.log("Oath Keeper app cannot work without a provider");
-                this.address = "Oath Keeper app cannot work without a provider, kindly install Metamask"
+                console.log("MileStones app cannot work without a provider");
+                this.address = "MileStones app cannot work without a provider, kindly install Metamask"
             }
         },
         async createOath(){
